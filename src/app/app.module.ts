@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import {AddressResolver} from './address.resolver';
 import { HttpClientModule} from '@angular/common/http';
+import { SecondPageComponent } from './second-page/second-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstPageComponent
+    FirstPageComponent,
+    SecondPageComponent
   ],
   imports: [
     BrowserModule,
